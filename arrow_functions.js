@@ -42,7 +42,7 @@
         let getValueFromId = (id) => document.getElementById(id).value;
 
         let setBackgroundColorById = (id, color) => {
-            document.getElementById(id).style = "background-color: " + color;
+            document.getElementById(id).style.onclick = "background-color: " + color;
         }
         mouseOverFunction = el => {
             el.style = "background-color: black";
